@@ -11,4 +11,4 @@ For deploy this project please flow below guideline
 9. docker-compose exec app rm -rf vendor composer.lock
 10. docker-compose exec app composer install
 11. docker-compose exec app php artisan key:generate
-12. http://server_domain_or_IP:8000
+12. http://server_domain_or_IP:8001
