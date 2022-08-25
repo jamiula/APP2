@@ -1,3 +1,14 @@
-# Travellist - Laravel Demo App
-
-This is a Laravel 6 demo application to support our Laravel guides.
+# APP2 Laravel demo project
+For deploy this project please flow below guideline
+1. Install docker and docker compose
+2. git clone https://github.com/jamiula/APP2.git
+3. cd APP2
+4. cp .env.example .env
+5. docker-compose build app
+6. docker-compose up -d
+7. docker-compose ps
+8. docker-compose exec app ls -l
+9. docker-compose exec app rm -rf vendor composer.lock
+10. docker-compose exec app composer install
+11. docker-compose exec app php artisan key:generate
+12. http://server_domain_or_IP:8000
